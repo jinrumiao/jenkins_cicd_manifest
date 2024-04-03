@@ -19,3 +19,4 @@ spec:
         image: miaojinru/cicd-e2e-example:57
         ports:
         - containerPort: 8000
+
