@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: api_example
+  name: apiexample
   labels:
     app: fastapi
 spec:
@@ -15,7 +15,7 @@ spec:
         app: fastapi
     spec:
       containers:
-      - name: api_example
+      - name: apiexample
         image: miaojinru/cicd-e2e-example:55
         ports:
         - containerPort: 8000
