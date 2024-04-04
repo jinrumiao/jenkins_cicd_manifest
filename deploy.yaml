@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: apiexample
-        image: miaojinru/cicd-e2e-example:108
+        image: miaojinru/cicd-e2e-example:110
         ports:
         - containerPort: 8000
 
